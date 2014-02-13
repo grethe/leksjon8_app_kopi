@@ -1,0 +1,10 @@
+DROP TABLE person;
+
+CREATE TABLE person(
+	persnr INTEGER not null primary key,
+	fornavn VARCHAR(40) NOT NULL,
+	etternavn VARCHAR(40) NOT NULL);
+
+INSERT INTO person VALUES(100, "OLA", "HANSEN");
+INSERT INTO person VALUES(101, "ANNE GRETHE","ÅS");
+INSERT INTO person VALUES(102, "JONNY","HANSEN");
